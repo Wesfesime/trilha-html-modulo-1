@@ -1,62 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <title>Desafio html</title>
+    <style
+    >
+        #hostinger ,a  {
+            color: #2b2a2a;
+            
+
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            margin: 20px;
+            text-align: center;
+        }
+        a:hover{
+            color: #af1919;
+        }
+        
+        p{
+            text-align: left;
+        }
+        h1, h2, h3, h4 {
+            color: #2c3e50;
+        }
+        h2, h3, h4, h5, h6{
+            text-align: left;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .image {
+            margin-top: 10px;
+            max-width: 100%;
+        }
+        .back-button,  {
+            display: inline-block;
+            margin-top: -10px;
+            padding: 1px 10px;
+            background-color: #442424;
+            color: #f1f5f2;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .back-button:hover {
+            background-color: #2980b9;
+        }
+        #inicio{
+            text-align: left;
+        }
+        
+        
+
+    </style>
+
 </head>
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
-    <hr />
-
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
-    <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+    <h1>DESAFIO DIO - FORMAÇÃO HTML WEB DEVELOPER </h1><hr><br>
+    <h1 id="inicio">Indice</h1>
+    <ul id="inicio">
+<a href="#historia">história da Web</a><br>
+<a href="#clients">O que são Clients</a><br>
+<a href="#servers">O que são Servers</a><br>
+<a href="#html">Introdução ao HTML</a><br>
+<a href="#HtmlxCss">Html & CSS</a><br>
+<a href="#tags">Tags</a>    <br>
+<a href="#linguagem">Linguagens de Programação</a><br>
     </ul>
+    <br>
+    <hr>
+    <br>
+    <br>
+    
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h1 id="historia">A História da Web</h1><small><a class="back-button" href="#inicio">voltar</a></small>
+        <h2>O começo</h2>
+        <p>Tudo começou com as primeiras formas de comunicação não verbal/pessoa, como os telegrafos e radios. Com isso começaram a evoluir devido as necessidades de comunicação, criptografia, calculos e estratégias de guerra durante a primeira e segunda guerra mundial.</p>
+        <h3>História da Internet</h3>
+        <p>A internet começou como um projeto militar nos Estados Unidos, liderado pela ARPA, resultando na ARPANET, a primeira rede de computadores, em 1969.</p>
+        <img alt="Descrição da imagem" width="400"  src="https://th.bing.com/th/id/R.88d5f397b0becdc4d5066d30ba3c54a3?rik=EZfU0FfdW2MayA&riu=http%3a%2f%2fwww.tipografos.net%2finternet%2farpanet2.jpg&ehk=v7NjB0tCzLHXwXP4xTAz7lbYMTFPi%2fXLqtcL5Rnu61Q%3d&risl=&pid=ImgRaw&r=0">
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+        <h2>Os pioneiros</h2>
+                            
+            <ol><h4>Década de 40:</h4>
+               <p>Surgindo os primeiros computadores eletônicos, grades demais para serem transportados ou movidos sozinho, utilizados para fins científicos e militares, por exemplo o ENIAC que era enorme e usavam válvulas.</p>
+               <img alt="Descrição da imagem"  width="300" src="https://htecstore.com.br/wp-content/uploads/2020/08/eniac-informatica-computador-2.jpg"/>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+                <h4>Década de 50 e Transitores:</h4>
+                <p> As Válvulas, nesse periodo são substituídas pelos transitores transformando-os em computadores menores, porém ainda não transportavéis.</p>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+                <h4>Década de 60:</h4><p>Chegada dos circuitos integrados e os transistores reduziram o tamanho e aumentaram a eficiência. Foi uma epoca revolucionaria permitindo assim a criação de computadores mais poderosos e compactos, agora já não precisando ocupar toda uma sala.</p></ol>
+                
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
-    <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
-    </ul>
+            <h3>A Era dos Microcomputadores</h3>
+                <ol><h4>Década de 1970:</h4>
+                    <p>A Apple I e Apple II marcam a entrada da Apple no mercado de microcomputadores, democratizando o acesso à tecnologia.<p>
 
-</body>
+                <h4>Apple I (1976)</h4>
+                    <p>Kit para montar um computador em casa, com um design minimalista e inovador.</p>
+
+                <h4>Apple II (1977)</h4>
+                    <p>Um dos primeiros computadores pessoais de grande sucesso, com gráficos coloridos e um teclado completo.</p>
+                    <img alt="Descrição da imagem" width="300" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTE1rmulIgFm0wNtX4A_kzi4wFF9M3yS8WrUJ6tCEDlYIiMrjKAq2541hws90xU"/>
+                    
+
+
+                <h4>Década de 1980:</h4>
+                 <p>A guerra dos computadores pessoais se intensifica, com a Apple lançando o Macintosh em 1984, revolucionando a interface com o usuário com a introdução da interface gráfica e do mouse.</p>
+                <img alt="Descrição da imagem" width="300" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT9-7lQJq-_2rFxuXIy1xl70WwleM90ZSEA77P_1vod3-hrLJN4ZqWLuD3j5RNq"/>
+
+                <h3>A Era da Expansão:</h3>
+                    <p>Década de 1990: A Apple enfrenta dificuldades financeiras, mas se recupera com o lançamento do iMac em 1998, um computador colorido e acessível que revitaliza a marca.</p>
+
+                    </ol>
+            
+        <h1 id="clients"> O que são Clients</h1><small><a class="back-button" href="#inicio">voltar</a></small>
+        <h2> Entendendo Clients</h2>
+        <p>O modelo <strong>cliente-servidor</strong> é fundamental para o funcionamento da internet. O cliente é o dispositivo ou programa que solicita informações, como um navegador da web em um computador ou smartphone. </p>
+        
+        <img width="300" src="https://th.bing.com/th/id/R.0ce820eda7ff4d71e2f0f03b80812d30?rik=iarp%2b2n4ts7MyA&riu=http%3a%2f%2fwww.bilimnettasarim.com%2fwp-content%2fuploads%2f2015%2f08%2fClient-server-model.svg_.png&ehk=5DWIZCwd84H%2fXNeNTkXa5Fu7BZtqatxqJT3TThJEddA%3d&risl=&pid=ImgRaw&r=0" alt="Modelo Cliente-Servidor">
+
+
+        <h1 id="servers"> O que são Servers</h1><small><a class="back-button" href="#inicio">voltar</a></small>
+        <h2> Entendendo Servers</h2><p>O servidor, por sua vez, é o computador que armazena os dados e os envia ao cliente mediante solicitação.            
+        </p>
+        <p>Por exemplo, quando você acessa um site, seu navegador (cliente) solicita o conteúdo ao servidor onde o site está hospedado. O servidor processa a solicitação e retorna os arquivos necessários para exibir a página.</p>
+        <img width="300" src="//wiki.hpc.tulane.edu/trac/raw-attachment/wiki/cypress/svn/SVN_model.png"/>
+
+        <h1 id="html"> Introdução ao Html</h1><small><a class="back-button" href="#inicio">voltar</a></small>
+        <h2>O que é</h2>
+        <p>Conhecida como Linguagem de <del>Programação</del> de  Marcação de Hipertexto é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web.
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">"Hipertexto" refere-se aos links que conectam páginas da Web entre si, seja dentro de um único site ou entre sites. Links são um aspecto fundamental da web. Ao carregar conteúdo na Internet e vinculá-lo a páginas criadas por outras pessoas, você se torna um participante ativo na world wide web.</a>
+        </p>
+
+        <h2 id="tags"> Entendendo Tags</h2>
+            <small><a class="back-button" href="#inicio">voltar</a></small>
+            <p>Compostas por sinal de mais e menos (>) (<).  iniciado por exemplo "< strong>" e terminado "</ strong>" tudo que tiver entre elas, serão interpretadas pelo navegador como comandos ou instruções de acordo com w3schools. Por exemplo a tag strong  torna tudo em seu meio negrito. A tag < sub > cria texto com subscrito ex.: H2O(sem tag) H<sub>2</sub>O(com tag). O ao contrário é com o < sup > que cria texto com sobrescrito ex.: 10x(sem tag) 10<sup>x</sup>(com tag).
+                        
+        </p>
+        <h2> Atributos</h2>
+        <p>
+            Em Html as tags possuem algo chamado Atributos, são normalmente propriedades e informações adicionais compostas por nomes separados que aparecem na tag de abertura, definindo como deverá funcionar e se comportar os elementos dentro da tag.
+            Exemplo: < input type = "button">, < strong id =" titulo">< / strong>
+            </p>
+            <img alt="Descrição da imagem" width="300" src="https://guilhermemuller.com.br/imagens/cursos/html_basico/anatomia_tag.jpg"/>
+
+            <h2>Textos</h2>
+            <p>Tipografia html é a escolha e o uso de fontes para um documento web.As<a id="hostinger" href="https://www.hostinger.com.br/tutoriais/melhores-fontes-html#:~:text=As%20fontes%20adaptadas%20para%20a%20internet%20s%C3%A3o%20fontes%20que%20v%C3%AAm%20pr%C3%A9%2Dinstaladas%20na%20maioria%20dos%20sistemas%20operacionais.%20Isso%20garante%20que%20as%20fontes%20ser%C3%A3o%20renderizadas%20conforme%20o%20esperado%20quando%20acessadas%20de%20diferentes%20dispositivos%20e%20navegadores">"fontes adaptadas para a internet são fontes que vêm pré-instaladas na maioria dos sistemas operacionais. Isso garante que as fontes serão renderizadas conforme o esperado quando acessadas de diferentes dispositivos e navegadores"</a></p>
+
+        <h1 id="HtmlxCss"> Html & CSS </h1><small><a class="back-button" href="#inicio">voltar</a></small><br>
+        
+        <h2> Entendendo Css</h2><p>
+            <abbr title="Cascading Style Sheets">CSS</abbr> é uma linguagem de estilo usada para estilizar páginas web. É uma das principais linguagens da open web e é padronizada em navegadores web de acordo com as especificação da W3C.
+           
+        <p><h4>O Surgimento</h4>
+        
+        O <u>CSS</u> surgiu em 1996 para resolver o problema da separação entre conteúdo e design. Antes disso, os desenvolvedores dependiam de formatação embutida no <i>HTML</i>, o que dificultava o trabalho em grandes projetos.
+        </p>
+        <p><h4>Evolução</h4>       
+            <h5>CSS1: Introduzido em 1996 com propriedades básicas.<br>
+            CSS2: Adicionou suporte a layouts mais complexos.<br>
+            CSS3: Trouxe avanços como animações e design responsivo.</h5>     
+        
+            <h6>OBS.: Mesmo hoje em dia o CSS continua a evoluir, permitindo designs mais sofisticados e melhores experiências de usuário.</h6>
+            <img alt="Descrição da imagem" width= "300" src="https://i.redd.it/ezqzt0xspb591.jpg" />
+        </p>
+            
+        </p>
+
+        <h1 id="linguagem"> Linguagens de Programação</h1><small><a class="back-button" href="#inicio">voltar</a></small>
+        <h2> Entendendo Sobre linguagens de Programação</h2><p>
+           <blockquote></blockquote> <p> "Uma linguagem de programação é um conjunto de regras e sintaxes usadas para criar instruções que um computador pode entender e executar. Elas são fundamentais para desenvolver software, websites, aplicativos móveis, jogos e muitas outras tecnologias. Em outras palavras, uma linguagem de programação é a forma como os desenvolvedores comunicam-se com o computador para que ele realize tarefas específicas."</blockquote> Alguns exemplos de linguagens de programação, como Python, Java, Go, Ruby, C#, JavaScript, C++ e muitas outras, tem seu propósito e características únicas.</p>
+        <img alt="Descrição da imagem" width="300" src="https://tm.ibxk.com.br/2021/08/10/10181814794027.jpg?ims=1120x420">
+            
+        </p>
+            <p>O JavaScript trabalha em conjunto com HTML e CSS para formar o "trio" que constrói a web moderna. Cada um desses elementos desempenha um papel distinto:</p>
+            <img width="300" src="//vectormine.b-cdn.net/wp-content/uploads/html_css_javascript_suit_outline-1.jpg"/>
+
+            <p>Esses três elementos juntos garantem que uma página web seja funcional, bonita e interativa. Enquanto o HTML define a base, o CSS cuida da apresentação, e o JavaScript traz vida à página, permitindo experiências ricas e personalizadas para os usuários.</p>
+        
+
+
+        <h1 id="Referências"> Referências</h1><small><a class="back-button" href="#inicio">voltar</a></small>
+           <ol> 
+            <a href=" www.w3schools.com">www.w3schools.com</a><br>
+            <a href=" www.w3schools.com/html/default.asp">www.w3schools.com/html/default.asp</a><br>
+            <a href=" www.w3schools.com/css/default.asp">www.w3schools.com/css/default.asp</a><br>
+            <a href="https://www.hostinger.com.br/tutoriais/melhores-fontes-html">https://www.hostinger.com.br/tutoriais/melhores-fontes-html</a><br>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">https://developer.mozilla.org/pt-BR/docs/Web/HTML</a><br>
+            <a></a><br>
+            <a></a><br>
+           </ol>
+    
+    
+    
+    
+    
+    </body>
 </html>
